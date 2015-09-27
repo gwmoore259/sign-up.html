@@ -1,0 +1,32 @@
+html{box-sizing: border-box;}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.namefield{
+    margin: 5px 0 0;
+    display: inline;
+}
+
+.login{
+    margin: 30px 0;
+}
+
+.email .user .password{
+    margin-top: 15px;
+}
+
+.messagefield{
+    height: 200px;
+    width: 450px;
+}
+
+.messagebox{
+    margin-top: 30px;
+}
+
+p{
+    margin: 30px 0;
+}
+
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Sign-Up Form</title>
+
+ <link href="signupstyle.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <form>
+        <div class="namefield">
+            <label for="nameinput">First Name:</label>
+            <input id="nameinput" type="text" class="namefield">
+
+            <label for="nameinput">Last Name:</label>
+            <input id="nameinput" type="text" class="namefield">
+        </div>
+        
+        <div class="login">
+            <div class="email">
+                <label for="emailinput">E-Mail:</label>
+                <input id="emailinput" type="text" size="30" maxlength="45" class="emailfield">
+            </div>
+
+            <div class="user">
+                <span>Username:
+                <input type="text" name="password" size="27" maxlength="30"/>
+                </span>   
+            </div>
+            
+            <div class="password">
+            <span>Password:
+            <input type="password" name="password" size="27" maxlength="30"/>
+            </span>
+            </div>   
+       </div>   
+            
+        <span>Gender:
+            <label for="male">Male</label>
+            <input id="male" type="radio" name="gender" value="m">
+            <label for="female">Female</label>
+            <input id="female" type="radio" name="gender" value="f">
+        </span>
+            
+        <div class="messagebox">
+            <label for="messageinput">About Me Bio:</label>
+            <textarea class="messagefield"></textarea>
+        </div> 
+         
+        <p>What is your favorite way to write colors in CSS?
+            <select name="colorstyles">
+                <option value="HEX">Hex</option>
+                <option value="RGB">RGB</option>
+                <option value="HSL">HSL</option>
+            </select>
+        </p>
+         
+        <p>Which of the following transportation modes have you used? (Select all that apply)
+            <input type="checkbox" name="mode" value="car" checked="checked" />Car
+            <input type="checkbox" name="mode" value="bus" checked="checked" />Bus
+            <input type="checkbox" name="mode" value="plane" checked="checked" />Plane
+            <input type="checkbox" name="mode" value="train" checked="checked" />Train
+            <input type="checkbox" name="mode" value="boat" checked="checked" />Boat
+        </p>
+          
+            
+            <div class="submit">
+                <input type="submit">
+            </div>
+ </form>
+ 
+  
+</body>
+</html>
